@@ -1,37 +1,48 @@
 PODS:
-  - Alamofire (5.0.0)
-  - ModelMapper (10.0.0):
-    - ModelMapper/Core (= 10.0.0)
-  - ModelMapper/Core (10.0.0)
-  - Moya (14.0.0):
-    - Moya/Core (= 14.0.0)
+  - Alamofire (5.4.3)
+  - ModelMapper (10.0.1):
+    - ModelMapper/Core (= 10.0.1)
+  - ModelMapper/Core (10.0.1)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
   - Moya-ModelMapper (10.0.0):
     - Moya-ModelMapper/Core (= 10.0.0)
   - Moya-ModelMapper/Core (10.0.0):
     - ModelMapper (~> 10.0)
-    - Moya (= 14.0.0)
-  - Moya/Core (14.0.0):
+    - Moya (~> 15.0)
+  - Moya-ModelMapper/RxSwift (10.0.0):
+    - Moya-ModelMapper/Core
+    - Moya/RxSwift (~> 15.0)
+    - RxSwift
+  - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - RxSwift (6.2.0)
 
 DEPENDENCIES:
   - Moya-ModelMapper (from `../`)
+  - Moya-ModelMapper/RxSwift (from `../`)
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - ModelMapper
     - Moya
+    - RxSwift
 
 EXTERNAL SOURCES:
   Moya-ModelMapper:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: 58ff2bfb8daaacaa233d5c36e37b10a5248f59b1
-  ModelMapper: a8dbf2a2003bf626627b9fe7c9a22b3405a30404
-  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
-  Moya-ModelMapper: 517e284c5a63b6a5dc21c598142c51d6a99a010d
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  ModelMapper: 0f68dd4300d0e27290c70f66492c7f795da21bcf
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Moya-ModelMapper: c765285350756ef09c3a6355152f8dd687bab265
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
 
-PODFILE CHECKSUM: c6d94c53d48a232c9f6fe34e664c20b43603c023
+PODFILE CHECKSUM: eaf3186593c53f95a0bd842cb0c1a98c5dd01a61
 
-COCOAPODS: 1.8.0
+COCOAPODS: 1.11.2

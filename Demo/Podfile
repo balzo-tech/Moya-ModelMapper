@@ -4,6 +4,7 @@ use_frameworks!
 target 'Demo' do
 
 pod 'Moya-ModelMapper', :path => "../"
+pod 'Moya-ModelMapper/RxSwift', :path => "../"
 
 end
 

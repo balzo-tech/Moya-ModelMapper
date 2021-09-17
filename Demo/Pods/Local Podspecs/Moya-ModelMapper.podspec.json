@@ -29,7 +29,7 @@
       "source_files": "Sources/Moya-ModelMapper/*.swift",
       "dependencies": {
         "Moya": [
-          "14.0.0"
+          "~> 15.0"
         ],
         "ModelMapper": [
           "~> 10.0"
@@ -42,7 +42,7 @@
       "source_files": "Sources/RxMoya-ModelMapper/*.swift",
       "dependencies": {
         "Moya/RxSwift": [
-          "14.0.0"
+          "~> 15.0"
         ],
         "Moya-ModelMapper/Core": [
 
@@ -57,7 +57,7 @@
       "source_files": "Sources/ReactiveMoya-ModelMapper/*.swift",
       "dependencies": {
         "Moya/ReactiveSwift": [
-          "14.0.0"
+          "~> 15.0"
         ],
         "Moya-ModelMapper/Core": [
 
